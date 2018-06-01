@@ -1,0 +1,29 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/themes/*
+!web/app/themes/.gitkeep
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Dotenv
+.env
+.env.*
+!.env.example
+!.env.woo
+
+# Composer
+vendor/*
+!vendor/.gitkeep
+
+# Development
+.idea
+
+# OS
+.DS_Store
